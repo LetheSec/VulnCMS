@@ -1,0 +1,4 @@
+<?php
+//000000000060
+ exit();?>
+think_serialize:a:3:{i:0;a:12:{s:2:"id";i:18;s:5:"title";s:15:"添加管理员";s:4:"icon";s:0:"";s:8:"parentid";i:16;s:3:"app";s:5:"admin";s:10:"controller";s:7:"manager";s:6:"action";s:3:"add";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:0:"";s:6:"is_dev";i:0;s:9:"listorder";i:0;}i:1;a:12:{s:2:"id";i:19;s:5:"title";s:15:"编辑管理员";s:4:"icon";s:0:"";s:8:"parentid";i:16;s:3:"app";s:5:"admin";s:10:"controller";s:7:"manager";s:6:"action";s:4:"edit";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:0:"";s:6:"is_dev";i:0;s:9:"listorder";i:0;}i:2;a:12:{s:2:"id";i:21;s:5:"title";s:15:"删除管理员";s:4:"icon";s:0:"";s:8:"parentid";i:16;s:3:"app";s:5:"admin";s:10:"controller";s:7:"manager";s:6:"action";s:3:"del";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:0:"";s:6:"is_dev";i:0;s:9:"listorder";i:0;}}
