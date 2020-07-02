@@ -1,0 +1,95 @@
+<?php /*a:2:{s:50:"/var/www/application/admin/view/manager/index.html";i:1589651136;s:49:"/var/www/application/admin/view/index_layout.html";i:1589819694;}*/ ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>YXJCMS后台管理系统</title>
+    <meta name="author" content="YXJCMS">
+    <link rel="stylesheet" href="/static/libs/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/admin/css/admin.css">
+    <link rel="stylesheet" href="/static/common/font/iconfont.css">
+    <script src="/static/libs/layui/layui.js"></script>
+    <script src="/static/libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+    //全局变量
+    var GV = {
+        'image_upload_url': '<?php echo !empty($image_upload_url) ? htmlentities($image_upload_url) :  url("attachment/upload/upload", ["dir" => "images", "module" => request()->module()]); ?>',
+        'file_upload_url': '<?php echo !empty($file_upload_url) ? htmlentities($file_upload_url) :  url("attachment/upload/upload", ["dir" => "files", "module" => request()->module()]); ?>',
+        'WebUploader_swf': '/static/libs/webuploader/Uploader.swf',
+        'ueditor_upload_url': '<?php echo !empty($ueditor_upload_url) ? htmlentities($ueditor_upload_url) :  url("attachment/upload/upload", ["dir" => "images","from"=>"ueditor", "module" => request()->module()]); ?>',
+        'ueditor_grabimg_url': '<?php echo !empty($ueditor_upload_url) ? htmlentities($ueditor_upload_url) :  url("attachment/Attachments/geturlfile"); ?>',
+    };
+    </script>
+</head>
+
+<body class="childrenBody">
+    
+    <script type="text/javascript">
+    //console.log(layui.cache);
+    layui.config({
+        version: '1557143998899',
+        base: '/static/libs/layui_exts/'
+    }).extend({
+        treeGrid: 'treeGrid/treeGrid',
+        clipboard: 'clipboard/clipboard',
+        notice: 'notice/notice',
+        iconPicker: 'iconPicker/iconPicker',
+        ztree: 'ztree/ztree',
+        tagsinput: 'tagsinput/tagsinput',
+        common: '{/}/static/admin/js/common'
+    }).use('common');
+    </script>
+    
+    
+<div class="layui-card">
+    <div class="layui-card-header">管理员管理</div>
+    <div class="layui-card-body">
+        <div class="layui-form">
+            <table class="layui-hide" id="table" lay-filter="table"></table>
+            <script type="text/html" id="toolbarDemo">
+                <div class="layui-btn-container">
+                <a class="layui-btn layui-btn-sm" href="<?php echo url('add'); ?>">添加管理员</a>
+              </div>
+            </script>
+            <script type="text/html" id="barTool">
+                {{#  if(d.id == 1){ }}
+                <a href='<?php echo url("edit"); ?>?id={{ d.id }}' class="layui-btn layui-btn-xs">编辑</a>
+                {{#  } else { }}
+                <a href='<?php echo url("edit"); ?>?id={{ d.id }}' class="layui-btn layui-btn-xs">编辑</a>
+                <a href='<?php echo url("del"); ?>?id={{ d.id }}' class="layui-btn layui-btn-danger layui-btn-xs layui-tr-del">删除</a>
+                {{#  } }}
+            </script>
+        </div>
+    </div>
+</div>
+
+    
+<script type="text/javascript">
+layui.use('table', function() {
+    var table = layui.table,
+        $ = layui.$;
+    table.render({
+        elem: '#table',
+        toolbar: '#toolbarDemo',
+        url: '<?php echo url("index"); ?>',
+        cols: [
+            [
+                { field: 'id', width: 80, title: 'ID'},
+                { field: 'username', width: 80, title: '登录名'},
+                { field: 'roleid', width: 120, title: '所属角色'},
+                { field: 'last_login_ip', title: '最后登录IP' },
+                { field: 'last_login_time', width: 200, title: '最后登录时间' },
+                { field: 'email',width: 200, title: 'E-mail' },
+                { field: 'nickname', title: '真实姓名' },
+                { fixed: 'right', width: 160, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+    });
+});
+</script>
+
+</body>
+
+</html>

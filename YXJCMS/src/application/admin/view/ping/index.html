@@ -1,0 +1,30 @@
+{extend name="index_layout"/}
+{block name="main"}
+<div class="layui-card">
+    <div class="layui-card-body">
+        <div class="layui-tab layui-tab-card">
+            <ul class="layui-tab-title">
+                <li class="layui-this"><a href="">检测目标IP主机状态</a></li>
+            </ul>
+            <div class="layui-tab-content">
+                <form class="layui-form" action="/admin/Ping/index" method="post" >
+                    <div class="layui-form-item">
+                        <label class="">IP地址</label>
+                        <div class="layui-form-field-label">
+                            <input type="text" name="target" placeholder="请输入IP地址" autocomplete="off" class="layui-input" value="">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div>
+                            <input type="submit" class="layui-btn">
+                        </div>
+                    </div>
+                </form>
+                <div class="layui-form-item">
+                    {$result|raw}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

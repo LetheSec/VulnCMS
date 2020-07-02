@@ -1,0 +1,714 @@
+---------------------------------------------------------------
+
+[2020-06-16T13:38:44+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.875272s] [吞吐率：1.14req/s] [内存消耗：929.81kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:38:49+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.006121s] [吞吐率：163.37req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:38:50+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.005549s] [吞吐率：180.21req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:39:15+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.050285s] [吞吐率：19.89req/s] [内存消耗：936.19kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:39:18+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.006319s] [吞吐率：158.25req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:39:19+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.005711s] [吞吐率：175.10req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:39:20+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.006110s] [吞吐率：163.66req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:39:22+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.004979s] [吞吐率：200.85req/s] [内存消耗：601.75kb] [文件加载：102]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ error ] [2]unlink(/var/www/runtime/cache/69/961652f1974420aa0179cf9f3886fe.php): Permission denied[/var/www/thinkphp/library/think/cache/driver/File.php:304]
+---------------------------------------------------------------
+
+[2020-06-16T13:40:50+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.304780s] [吞吐率：3.28req/s] [内存消耗：1,489.10kb] [文件加载：117]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001864s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_cache` [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_cache` WHERE  `key` = 'Config' ORDER BY `id` DESC [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_config` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type`,`options` FROM `yxj_config` WHERE  ( status='1' ) ORDER BY `listorder`,`id` DESC [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_hooks` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yxj_hooks` WHERE  `status` = 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_addons` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yxj_addons` WHERE  `name` = 'saiyouems'  AND `status` = 1 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yxj_addons` WHERE  `name` = 'saiyouems'  AND `status` = 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yxj_addons` WHERE  `name` = 'saiyouems'  AND `status` = 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_module` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `module` FROM `yxj_module` WHERE  `module` = 'cms'  AND `status` = 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `module` FROM `yxj_module` WHERE  `module` = 'member'  AND `status` = 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `module` FROM `yxj_module` WHERE  `module` = 'member'  AND `status` = 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_cache` WHERE  `key` = 'Cms_Config' ORDER BY `id` DESC [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `setting` FROM `yxj_module` WHERE  `module` = 'cms' LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_category` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 6 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_cache` WHERE  `key` = 'Module' ORDER BY `id` DESC [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_module` [ RunTime:0.000363s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_cache` WHERE  `key` = 'Model' ORDER BY `id` DESC [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_model` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model` WHERE  `status` = 1 [ RunTime:0.000567s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_article` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_article` WHERE  ( status=1 AND catid in(10,6) ) ORDER BY `listorder` ASC LIMIT 3 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_cache` WHERE  `key` = 'ModelField' ORDER BY `id` DESC [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_model_field` [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model_field` WHERE  `modelid` = 1  AND `status` = 1 ORDER BY `listorder` ASC [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model_field` WHERE  `modelid` = 2  AND `status` = 1 ORDER BY `listorder` ASC [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model_field` WHERE  `modelid` = 3  AND `status` = 1 ORDER BY `listorder` ASC [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model_field` WHERE  `modelid` = 4  AND `status` = 1 ORDER BY `listorder` ASC [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( id in(1,6,8) AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 4 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 8 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000479s ]
+[ error ] [8]未定义数组索引: [/var/www/application/cms/model/Cms.php:37]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:00+08:00] 192.168.26.1 GET 192.168.26.128:81/lists/6
+[运行时间：0.034675s] [吞吐率：28.84req/s] [内存消耗：864.95kb] [文件加载：108]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '6',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.26.128:81/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '6',
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/category.html [ array (
+  0 => 'cms_config',
+  1 => 'top_parentid',
+  2 => 'arrparentid',
+  3 => 'SEO',
+  4 => 'catid',
+  5 => 'page',
+  6 => 'modelid',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_article` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_article` WHERE  ( status=1 AND catid in(10,6) ) ORDER BY `listorder` ASC LIMIT 0,5 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:01+08:00] 192.168.26.1 GET 192.168.26.128:81/about/index/index/?file=about.php
+[运行时间：0.061221s] [吞吐率：16.33req/s] [内存消耗：595.60kb] [文件加载：100]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.26.128:81/lists/6',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'file' => 'about.php',
+)
+[ info ] [ VIEW ] /var/www/application/about/view/index/index.html [ array (
+  0 => 'info',
+) ]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:9]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:02+08:00] 192.168.26.1 GET 192.168.26.128:81/joinus/index/index
+[运行时间：0.032072s] [吞吐率：31.18req/s] [内存消耗：594.99kb] [文件加载：99]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.26.128:81/about/index/index/?file=about.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/application/joinus/view/index/index.html [ array (
+  0 => 'title',
+) ]
+[ error ] [8]未定义变量: title_info[/var/www/application/joinus/controller/Index.php:35]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/7be9bdb2d93d0ef2ea879df9c87070ca.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/7be9bdb2d93d0ef2ea879df9c87070ca.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/7be9bdb2d93d0ef2ea879df9c87070ca.php:9]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:03+08:00] 192.168.26.1 GET 192.168.26.128:81/about/index/index/?file=about.php
+[运行时间：0.004807s] [吞吐率：208.03req/s] [内存消耗：594.22kb] [文件加载：100]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.26.128:81/joinus/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'file' => 'about.php',
+)
+[ info ] [ VIEW ] /var/www/application/about/view/index/index.html [ array (
+  0 => 'info',
+) ]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:9]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:13+08:00] 192.168.26.1 GET 192.168.26.128:81/about/index/index/?file=../../../../../../../etc/passwd
+[运行时间：0.005574s] [吞吐率：179.40req/s] [内存消耗：590.63kb] [文件加载：100]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'file' => '../../../../../../../etc/passwd',
+)
+[ info ] [ VIEW ] /var/www/application/about/view/index/index.html [ array (
+  0 => 'info',
+) ]
+[ error ] [8]未定义变量: email[/var/www/application/about/controller/Index.php:19]
+[ error ] [8]未定义变量: phone[/var/www/application/about/controller/Index.php:20]
+[ error ] [8]未定义变量: addr[/var/www/application/about/controller/Index.php:21]
+[ error ] [8]未定义变量: school[/var/www/application/about/controller/Index.php:22]
+[ error ] [8]未定义变量: img[/var/www/application/about/controller/Index.php:23]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:9]
+---------------------------------------------------------------
+
+[2020-06-16T13:41:16+08:00] 192.168.26.1 GET 192.168.26.128:81/about/index/index
+[运行时间：0.015799s] [吞吐率：63.29req/s] [内存消耗：588.68kb] [文件加载：100]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/application/about/view/index/index.html [ array (
+  0 => 'info',
+) ]
+[ error ] [8]未定义数组索引: file[/var/www/application/about/controller/Index.php:13]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:9]
+---------------------------------------------------------------
+
+[2020-06-16T21:10:31+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.660507s] [吞吐率：1.51req/s] [内存消耗：997.71kb] [文件加载：111]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=cf3f643d3d29e32eddfd377d752ed19f',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029203s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_category` [ RunTime:0.136345s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 6 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000603s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001236s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001078s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_model` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_article` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_article` WHERE  ( status=1 AND catid in(10,6) ) ORDER BY `listorder` ASC LIMIT 3 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( id in(1,6,8) AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 4 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 8 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000575s ]
+[ error ] [8]未定义数组索引: [/var/www/application/cms/model/Cms.php:37]
+---------------------------------------------------------------
+
+[2020-06-16T23:40:55+08:00] 192.168.26.1 GET 192.168.26.128:81/
+[运行时间：0.253209s] [吞吐率：3.95req/s] [内存消耗：997.23kb] [文件加载：111]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/public/../public/templates/default/cms/index.html [ array (
+  0 => 'cms_config',
+  1 => 'SEO',
+  2 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056741s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_category` [ RunTime:0.042482s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.013583s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 6 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000532s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=mysql;port=3306;dbname=yxjcms;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_model` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_model` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yxj_article` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_article` WHERE  ( status=1 AND catid in(10,6) ) ORDER BY `listorder` ASC LIMIT 3 [ RunTime:0.018935s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( id in(1,6,8) AND parentid = 0 ) ORDER BY `listorder` ASC LIMIT 4 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `yxj_category` WHERE  ( status=1 AND parentid = 8 ) ORDER BY `listorder` ASC LIMIT 10 [ RunTime:0.000485s ]
+[ error ] [8]未定义数组索引: [/var/www/application/cms/model/Cms.php:37]
+---------------------------------------------------------------
+
+[2020-06-16T23:48:13+08:00] 192.168.26.1 GET 192.168.26.128:81/about/index/index/?file=about.php
+[运行时间：0.349260s] [吞吐率：2.86req/s] [内存消耗：594.22kb] [文件加载：100]
+[ info ] [ LANG ] /var/www/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=32a8a315ec0b0b84b3141cd0e50ce39e; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.26.128:81/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.26.128:81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'file' => 'about.php',
+)
+[ info ] [ VIEW ] /var/www/application/about/view/index/index.html [ array (
+  0 => 'info',
+) ]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:7]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:8]
+[ error ] [8]未定义变量: SEO[/var/www/runtime/temp/86c16ef267466641340440e77279ed1a.php:9]

@@ -1,0 +1,73 @@
+{include file="header" /}
+<style type="text/css">
+    body {
+        background: #f6f6f6;
+    }
+    label{
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        line-height: 2;
+        color: #333;
+        background-color: #fff;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    input[type=file] {
+        display: block;
+    }
+    label, summary {
+        cursor: default;
+    }
+    .help-block {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: #737373;
+    }
+</style>
+<div class="headline-bg"></div>
+<div class="main" style="position: relative;">
+    <div class="w1200">
+        <div class="container-top">
+            <h2>加入我们<span>Join us</span></h2>
+            <!--S 面包屑 -->
+            <div class="bread-nav">
+                <a href="">首页</a>&gt; <a href="/joinus/index/index">加入我们</a>
+            </div>
+            <!--E 面包屑 -->
+        </div>
+        <div class="content">
+            <!-- 左栏 -->
+            {include file="sider" /}
+            <!-- 右栏 -->
+            <div class="content-right">
+                <div class="content-contact">
+                    <h1 align="center" style="font-size:35px;">提交简历</h1>
+                </div>
+                <br><br>
+                <div>
+                    <form action="/joinus/index/index" enctype="multipart/form-data" method="post">
+                        <div class="form-group">
+                            <label for="file">请上传您的简历</label>
+                            <input type="file" id="file" name="file">
+                            <p class="help-block">仅限上传docx文件</p>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="submit" class="btn btn-default" value="提交">
+                        </div>
+                    </form>
+                </div>
+                <br><br>
+                <div>
+                    <h1 style="font-size: 20px">{$title}</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{include file="footer" /}

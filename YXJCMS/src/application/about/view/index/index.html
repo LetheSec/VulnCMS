@@ -1,0 +1,43 @@
+{include file="header" /}
+<style type="text/css">
+    body {
+        background: #f6f6f6;
+    }
+</style>
+<div class="headline-bg"></div>
+<div class="main" style="position: relative;">
+    <div class="w1200">
+        <div class="container-top">
+            <h2>关于我们<span>About us</span></h2>
+            <!--S 面包屑 -->
+            <div class="bread-nav">
+                <a href="">首页</a>&gt; <a href="/about/index/index/?file=about.php">关于我们</a>
+            </div>
+            <!--E 面包屑 -->
+        </div>
+        <div class="content">
+            <!-- 左栏 -->
+            {include file="sider" /}
+            <!-- 右栏 -->
+            <div class="content-right">
+                <div class="content-contact">
+                    <h1  style="font-size:30px; padding-left: 35%">关于我们</h1>
+                </div>
+                <br><br>
+                <div class="about" deep="4">
+                    <p>邮箱：{$info.email}</p>
+                    <p>手机：{$info.phone}</p>
+                    <p>学校：{$info.school}</p>
+                    <p>地址：{$info.addr}</p>
+                    <br>
+                    <img width="530" height="340" src="{$info.img}">
+                </div>
+                <br><br>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{include file="footer" /}
